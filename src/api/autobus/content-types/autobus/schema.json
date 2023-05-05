@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autobuses",
+  "info": {
+    "singularName": "autobus",
+    "pluralName": "autobuses",
+    "displayName": "autobus",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phoneNumber": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "password": {
+      "type": "password"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
